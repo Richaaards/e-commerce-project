@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import Directory from "../../components/Directory"
 import "./HomePage.style.scss";
 
@@ -10,4 +11,4 @@ const HomePage = () => {
     )
 }
 
-export default HomePage;
+export default withRouter(HomePage);
