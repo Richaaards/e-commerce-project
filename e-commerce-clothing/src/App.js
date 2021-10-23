@@ -34,9 +34,6 @@ class App extends React.Component {
               ...snapShot.data()
             }
           })
-          // console.log("snapshot : ", snapShot);
-          // console.log("snapshot data : ", snapShot.data());
-          console.log("current state : ", this.state);
         });
         console.log(this.state);
       }
