@@ -1,4 +1,3 @@
-import MenuItem from "../../components/MenuItem";
 import { cartActionTypes } from "./cart.types";
 
 export const toggleCartHidden = () => ({
